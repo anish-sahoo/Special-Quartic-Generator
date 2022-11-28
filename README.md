@@ -1,16 +1,16 @@
 # Special Quartic Generator
 
-***This project uses the Apache Commons Math library for Java! Things won't compile unless the user adds that library to the project.***
+***This project uses the Apache Commons Math library for Java! Things won't compile unless that library is added to the project.***
 
 ## Objective: 
 
-Generate a polynomial
+Generate some polynomials of the form:
 ```
 (Ax^2 + Bx + C)(Ax^2 + Bx + D) + F
 ```
 
-which can be factorized to ```(x+a)(x+b)(x+c)(x+d)```,
-where a, b, c & d are real.
+which can be factorized to ```(x + p)(x + q)(x + r)(x + s)```,
+where p, q, r & s are Real.
 
 **Use the Apache Commons Math library as needed!**
 ## Steps:
